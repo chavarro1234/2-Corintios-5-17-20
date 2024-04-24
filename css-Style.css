@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vb;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+header, .titulo, footer{
+    width: 100%;
+}
+
+
+
+/* HEADER - NAV */
+
+.header{
+    background: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-header ul{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-header{
+    display: inline-flex;
+}
+
+.nav-header li{
+    list-style: none;
+    padding: 10px 20px;
+    
+}
+
+.buscador{
+    width: 29vw;
+    height: 47px;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 22px 0 0 22px;
+    border: none;
+    background: #EDEBEB;
+    outline: none;
+
+}
+
+/* LOGOS DE NAV */
+
+.logos{
+    display: flex;
+    align-items: center;
+    height: 26px;
+    box-sizing: border-box;
+}
+
+.logo1{
+    width: 20px;
+    height: 20px;
+    margin: 0 30px;
+}
+.logo2{
+    width: 32px;
+    margin: 0 20px;
+}
+
+.lupa{
+    margin: 0;
+    height: 47px;
+    width: 47px;
+    padding: 5px;
+    background-color: #EDEBEB;
+    border-radius: 0 22px 22px 0;
+}
+
+/* TEXTOS */
+
+.titulo{
+    background: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titulo h1{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.nav-header h2{
+    font-size: 27px;
+}
+
+h1, h2, p{
+    text-wrap: pretty;
+}
+
+
+li{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.versiculo-principal h2{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.versiculo-principal p{
+    font-size: 25px;
+    margin-top: 0;
+    line-height: 28px;
+}
+
+.versiculo-principal span{
+    display: block;
+    color: #424542;
+    font-size: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #7e7e7e;
+    margin-bottom: 17px;
+}
+
+
+
+.lado-derecho h2{
+    font-size: 30px;
+    line-height: 31px;
+}
+
+.lado-derecho p{
+    font-size: 18px;
+
+}
+
+
+
+/* MAIN - MENU PRINCIPAL */
+
+.princial{
+    
+    justify-content: center;
+}
+
+
+
+main{
+    margin: auto;
+    display: flex;
+    gap: 90px;
+}
+
+.versiculo-principal{
+    background: white;
+    min-width: 500px;
+    width: 30vw;
+    padding: 15px 30px; 
+    border-radius: 15px;
+}
+
+
+
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.boton{
+    width: 45%;
+    border: 0;
+    border-radius: 20px;
+    padding: 15px;
+    background: #DDDBDB;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.lado-derecho{
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.212);
+}
+
+.lado-derecho{
+    text-wrap: pretty;
+    padding: 15px 40px;
+    width: 16vw;
+    background-image: url(https://www.bible.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwaves-bkg%402x.e8c92b25.png&w=640&q=75);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.qr-box{
+    display: flex;
+    margin: auto;
+    margin-top: 56px;
+    background: white;
+    max-width: 150px;
+    height: 152px;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.212);
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-codigo{
+    width: 140px;
+    margin-bottom: 1px;
+}
+
+
+/* ABAJOOO */
+
+a{
+    padding: 0;
+    margin: 0;
+    font-size: 9px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: 0 50px 0 50px;
+}
+
+.diviciones-abajo h2{
+    margin-top: 0;
+    font-weight: 400;
+}
+
+
+.abajo-box{
+    margin-top: 40px;
+    max-width: 30vw;
+    justify-content: center;
+}
+
+
+.abajo{
+    justify-content: center;
+    background: white;
+    min-width: 500px;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+
+.abajo aside{
+    width: 30vw;
+    display: flex;
+}
+
+
+.logo-biblia, .logo-biblia-niños{
+    width: 90px;
+}
+
+.diviciones-abajo{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.siguiente-pagina{
+    display: block;
+}
+
+.imagen-corintios{
+    display: block;
+    margin: auto;
+    width: 360px;
+}
+
+.siguiente-boton{
+    padding: 15px;
+    width: 393px;
+    height: 55px;
+    border-radius: 100px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.separcion{
+    margin-bottom: 40px;
+}
+
+
+
+footer{
+    text-align: center;
+    color: rgb(224, 224, 224);
+    margin-top: auto;
+    background: #424542;
+    padding: 50px;
+}
+
+footer span{
+    display: block;
+}
+
+.autor{
+    font-size: 17px;
+}
+
+.descripcion{
+    font-size: 15px;
+    color:#b9b9b9;
+}
+
